@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: sans-serif;
+    background-color: #c5d4ff;
+}
+
+.container {
+    margin: 18rem auto;
+    max-width: 760px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

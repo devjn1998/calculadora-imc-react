@@ -1,0 +1,84 @@
+.resultado {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    display: block;
+    width: 28rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+    border-bottom: 4px solid #111;
+    margin: 12px;
+    text-align: center;
+}
+
+.input::placeholder {
+    color: #111;
+    font-weight: bolder;
+}
+
+.btn {
+    padding: 8px;
+    background-color: #1e90ff;
+    border: none;
+    color: #ccc;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 48px;
+}
+.btn:hover {
+    color: #fff;
+}
+
+.muito-abaixo-peso {
+    padding: 12px;
+    background-color: hsl(189, 100%, 85%);
+    color: #111;
+    font-weight: bolder;
+}
+
+.abaixo-peso {
+    padding: 12px;
+    background-color: #7dffe3;
+    color: #111;
+    font-weight: bolder;
+}
+
+.peso-ideal {
+    padding: 12px;
+    background-color: #06f826;
+    color: #111;
+    font-weight: bolder;
+}
+
+.acima-peso {
+    padding: 12px;
+    background-color: #cff330;
+    color: #111;
+    font-weight: bolder;
+}
+
+.obesidade-i {
+    padding: 12px;
+    background-color: #fdd005;
+    color: #111;
+    font-weight: bolder;
+}
+
+.obesidade-ii {
+    padding: 12px;
+    background-color: #ff7300;
+    color: #111;
+    font-weight: bolder;
+}
+
+.obesidade-iii {
+    padding: 12px;
+    background-color: #ff0000;
+    color: #111;
+    font-weight: bolder;
+}
